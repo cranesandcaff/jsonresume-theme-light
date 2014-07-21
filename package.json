@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-light-caffienated",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "A theme for JSONResume",
   "main": "index.js",
   "scripts": {
