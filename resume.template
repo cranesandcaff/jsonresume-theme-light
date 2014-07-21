@@ -280,7 +280,7 @@
           background : #67809F;
         }
 
-        .greybadge 
+        .greybadge
         {
             background: #6C7A89;
         }
@@ -302,8 +302,6 @@
                   <li><a href="#experience">Professional experience</a></li>
                   <li><a href="#education">Education</a></li>
                   <li><a href="#skills">Skills</a></li>
-                  <li><a href="#awards">Awards</a></li>
-                  <li><a href="#publications">Publications</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -361,7 +359,7 @@
           <h2 class="section-title">Education</h2>
           <div class="container">
             <ul class="cbp_tmtimeline">
-{{#education}}              
+{{#education}}
               <li>
                   <time class="cbp_tmtime" datetime="2013-04-10 18:30"><span>{{duration}}</span> <span>{{^endDate}} {{startDate}} {{/endDate}}{{#endDate}}{{startDate}}/{{endDate}}{{/endDate}}</span></time>
                   <div class="cbp_tmicon cbp_tmicon-phone"></div>
@@ -394,42 +392,11 @@
               <h4> {{name}} </h4>
                 <h5><b>{{level}}</b></h5>
                 {{#keywords}}
-                <span class="badge greenbadge">{{.}}</span> 
+                <span class="badge greenbadge">{{.}}</span>
                 {{/keywords}}
             </div>
             <br>
 {{/skills}}
-
-          </div>
-        </div>
-        <div class="container" id="awards">
-          <h2 class="section-title">Awards</h2>
-          <div class="container">
-{{#awards}}
-            <div class="media">
-              <div class="media-body">
-                <h4 class="media-heading"><span class="badge greybadge ">{{awarder}}</span> {{title}}</h4><p><i>{{date}} </i>
-                <p>
-                </p>
-              </div>
-            </div>
-{{/awards}}
-          </div>
-        </div>
-        <div class="container" id="publications">
-          <h2 class="section-title">Publications</h2>
-          <div class="container">
-{{#publications}}
-            <div class="media">
-              <div class="media-body">
-                <h4 class="media-heading"><span class="badge greybadge ">{{publisher}}</span> <a href="{{website}}">{{name}}</a></h4><p><i>{{releaseDate}} </i>
-                <p>
-                </p>
-              </div>
-            </div>
-{{/publications}}
-            
-          </div>
 
           </div>
         </div>
